@@ -1,12 +1,15 @@
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
-  entry: './lib/index.js',
+  entry: {
+    global: './lib/index',
+    palette: './lib/palette',
+  },
   target: 'node',
   output: {
     libraryTarget: 'commonjs2',
-    path: `${__dirname}/dist`,
-    filename: '[name].js',
+    path: `${__dirname}/components`,
+    filename: '[name]/index.js',
   },
   plugins: [
     new UglifyJSPlugin(),
