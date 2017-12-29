@@ -2,4 +2,4 @@ dist
 temp.*
 node_modules
 npm-debug.log
-styles
+components

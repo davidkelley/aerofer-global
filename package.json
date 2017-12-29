@@ -1,6 +1,6 @@
 {
   "name": "@aerofer/global",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Global styles, components and utilities",
   "private": false,
   "main": "components/global/index.js",
