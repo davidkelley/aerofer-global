@@ -55,5 +55,10 @@
     "env": {
       "jest": true
     }
+  },
+  "dependencies": {
+    "color": "^2.0.1",
+    "hex-to-hsl": "^1.0.2",
+    "material-palette": "^1.0.0"
   }
 }
