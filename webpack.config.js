@@ -4,6 +4,7 @@ module.exports = {
   entry: {
     global: './lib/index',
     palette: './lib/palette',
+    spacings: './lib/spacings',
     typefaces: './lib/typefaces',
   },
   target: 'node',
